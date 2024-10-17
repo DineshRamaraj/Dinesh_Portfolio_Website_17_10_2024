@@ -10,8 +10,8 @@ const Home = () => {
         "Front-end Developer",
         "Back-end Developer",
       ],
-      typeSpeed: 30,
-      backSpeed: 30, // Optional: Adds a more dynamic typing effect
+      typeSpeed: 50,
+      backSpeed: 50, // Optional: Adds a more dynamic typing effect
       loop: true, // Optional: Keeps the animation looping
     });
 
