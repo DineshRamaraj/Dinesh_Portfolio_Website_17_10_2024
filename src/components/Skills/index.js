@@ -369,7 +369,7 @@ const Skills = () => {
               key={skill.id}
               className="relative text-center border border-slate-300 px-3 lg:px-10 py-3 rounded-md shadow-md space-y-2 bg-white transition-all duration-300 cursor-pointer"
             >
-              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-50 flex justify-center items-center p-5 transition-all duration-300 delay-100">
+              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-50 flex justify-center items-center p-5 transition-all  ease-in-out duration-500">
                 <div className="progress w-full h-5 bg-white rounded-lg">
                   
                 <div
