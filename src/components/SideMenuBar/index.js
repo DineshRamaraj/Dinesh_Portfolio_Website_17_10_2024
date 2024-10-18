@@ -9,7 +9,7 @@ const SideMenubar = ({ showSidebar, setShowSidebar }) => {
         onClick={() => setShowSidebar(!showSidebar)}
         className={`fixed duration-200 ${
           showSidebar ? "visible" : "invisible"
-        } w-screen h-screen bg-[#43765411] opacity-0 disabled top-0 left-0 bottom-0 right-0 z-10`}
+        } w-screen h-screen bg-[#43765411] opacity-0 disabled top-0 left-0 bottom-0 right-0 z-auto`}
       ></div>
       <div
         className={`fixed top-0 left-0 w-[260px] bg-slate-600 min-h-screen z-50 transform ${

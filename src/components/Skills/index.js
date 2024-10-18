@@ -244,7 +244,7 @@ const Skills = () => {
               key={skill.id}
               className="relative text-center border border-slate-300 px-3 lg:px-14 py-3 rounded-md shadow-md space-y-2 bg-white transition-all duration-300 cursor-pointer"
             >
-              <div className="absolute top-0 right-0 left-0 bottom-0 bg-slate-700 opacity-0 hover:opacity-100 rounded-md z-50 flex justify-center items-center p-5 transition-all duration-300 delay-100">
+              <div className="absolute top-0 right-0 left-0 bottom-0 bg-slate-700 opacity-0 hover:opacity-100 rounded-md z-20 flex justify-center items-center p-5 transition-all duration-300 delay-100">
                 <div className="progress w-full h-5 bg-white rounded-lg">
                   <div
                     className={`rounded-lg ${skill.progress >= 75 ? 'bg-green-500' : skill.progress < 50 ? 'bg-red-600' : 'bg-yellow-400'} h-full`}
@@ -276,7 +276,7 @@ const Skills = () => {
               key={skill.id}
               className="relative text-center border border-slate-300 px-3 lg:px-14 py-3 rounded-md shadow-md space-y-2 bg-white transition-all duration-300 cursor-pointer"
             >
-              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-50 flex justify-center items-center p-5 transition-all duration-300 delay-100">
+              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-20 flex justify-center items-center p-5 transition-all duration-300 delay-100">
                 <div className="progress w-full h-5 bg-white rounded-lg">
                   
                 <div
@@ -307,7 +307,7 @@ const Skills = () => {
               key={skill.id}
               className="relative text-center border border-slate-300 px-3 lg:px-14 py-3 rounded-md shadow-md space-y-2 bg-white transition-all duration-300 cursor-pointer"
             >
-              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-50 flex justify-center items-center p-5 transition-all duration-300 delay-100">
+              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-20 flex justify-center items-center p-5 transition-all duration-300 delay-100">
                 <div className="progress w-full h-5 bg-white rounded-lg">
                   
                 <div
@@ -369,9 +369,8 @@ const Skills = () => {
               key={skill.id}
               className="relative text-center border border-slate-300 px-3 lg:px-10 py-3 rounded-md shadow-md space-y-2 bg-white transition-all duration-300 cursor-pointer"
             >
-              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-50 flex justify-center items-center p-5 transition-all ease-in-out duration-500">
+              <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-0 hover:opacity-100 rounded-md z-10 flex justify-center items-center p-5 transition-all ease-in-out duration-500">
                 <div className="progress w-full h-5 bg-white rounded-lg">
-                  
                 <div
                     className={`rounded-lg ${skill.progress >= 75 ? 'bg-green-500' : skill.progress < 50 ? 'bg-red-600' : 'bg-yellow-400'} h-full`}
                     style={{ width: `${skill.progress}%` }}
